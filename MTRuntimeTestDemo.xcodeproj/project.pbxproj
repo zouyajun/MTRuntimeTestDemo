@@ -15,6 +15,7 @@
 		941F91F11CA27C9000328463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941F91EF1CA27C9000328463 /* LaunchScreen.storyboard */; };
 		941F91FC1CA27C9000328463 /* MTRuntimeTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 941F91FB1CA27C9000328463 /* MTRuntimeTestDemoTests.m */; };
 		941F92071CA27C9000328463 /* MTRuntimeTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 941F92061CA27C9000328463 /* MTRuntimeTestDemoUITests.m */; };
+		941F92161CA285E700328463 /* MTCustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 941F92151CA285E700328463 /* MTCustomClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		941F92021CA27C9000328463 /* MTRuntimeTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRuntimeTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941F92061CA27C9000328463 /* MTRuntimeTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRuntimeTestDemoUITests.m; sourceTree = "<group>"; };
 		941F92081CA27C9000328463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941F92141CA285E700328463 /* MTCustomClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCustomClass.h; sourceTree = "<group>"; };
+		941F92151CA285E700328463 /* MTCustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCustomClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				941F91EF1CA27C9000328463 /* LaunchScreen.storyboard */,
 				941F91F21CA27C9000328463 /* Info.plist */,
 				941F91E11CA27C9000328463 /* Supporting Files */,
+				941F92141CA285E700328463 /* MTCustomClass.h */,
+				941F92151CA285E700328463 /* MTCustomClass.m */,
 			);
 			path = MTRuntimeTestDemo;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941F92161CA285E700328463 /* MTCustomClass.m in Sources */,
 				941F91E91CA27C9000328463 /* ViewController.m in Sources */,
 				941F91E61CA27C9000328463 /* AppDelegate.m in Sources */,
 				941F91E31CA27C9000328463 /* main.m in Sources */,
